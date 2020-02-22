@@ -1,0 +1,11 @@
+num1=int(input())
+i=0
+l=[]
+if num1>=0:
+    while num1+1>i:
+        l.append(i)
+        l.append(i-(i//2))
+        i=i+2
+    print(l[-2])
+else:
+    print("invalid")
