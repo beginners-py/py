@@ -1,0 +1,8 @@
+a=[9,5,2,4,8,1]
+b=[]
+k=0
+for i in range(0,len(a)):
+    b.append(min(a))
+    k=min(a)
+    a.remove(k) 
+print(b)
